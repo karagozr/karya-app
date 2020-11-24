@@ -1,0 +1,44 @@
+
+
+.dx-pivotgrid .dx-pivotgrid-area-data tbody tr .dx-grandtotal span
+ {
+    float: left;
+    text-align: right;
+    width: 80px;
+} 
+
+.dx-pivotgrid .dx-pivotgrid-horizontal-headers td span {
+    float: left;
+    text-align: right;
+    width: 80px;
+}
+
+.dx-pivotgrid.dx-row-lines .dx-pivotgrid-area td {
+    /* float: left; */
+    /*width: 200px;*/
+    
+    width: 130px;
+}
+
+.dx-pivotgrid.dx-row-lines .dx-pivotgrid-area-data tr td {
+    width : 100px;
+}
+
+.dx-pivotgrid-horizontal-headers .dx-scrollable-wrapper .dx-scrollable-container .dx-scrollable-content table td:last-child {
+    /* float: left; */
+    /*width: 200px;*/
+    width: 100%;
+}
+
+.dx-pivotgrid.dx-row-lines .dx-pivotgrid-area-data td:last-child {
+
+    width : 100%;
+}
+ 
+.dx-scrollable-content table{
+    width: 100%;
+}
+
+.dx-pivotgrid-horizontal-headers .dx-scrollable-wrapper .dx-scrollable-container .dx-scrollable-content tablee{
+    width: 100%;
+}

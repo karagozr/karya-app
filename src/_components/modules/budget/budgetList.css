@@ -1,0 +1,23 @@
+.left {
+    left:'50px';
+    max-width: 330px;
+    padding: 20px;
+    background: rgba(191, 191, 191, 0.15);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.right {
+    overflow: hidden;
+}
+.project-planned-budget .status{
+    color: #1f884e;
+    font-weight: bold;
+    text-align: right;
+}
+.project-notplanned-budget .status{
+    color: #b42d28;
+    font-weight: bold;
+    text-align: right;
+}

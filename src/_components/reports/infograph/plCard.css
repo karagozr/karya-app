@@ -1,0 +1,71 @@
+
+html *
+{
+   font-size: auto !important;
+}
+.mainCircular {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.secondCircular {
+    width: 60px;
+    vertical-align: middle;
+}
+
+
+.negative .CircularProgressbar-path {
+    stroke: #d32f2f;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+.positive .CircularProgressbar-path {
+    stroke:#46b976;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+.secondCircular .CircularProgressbar-path {
+    stroke: #ff5722;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+.mainCircular .CircularProgressbar-text {
+    fill: #000000;
+    font-size: 170%;
+    font-weight: bold;
+    text-anchor: middle;
+}
+.secondCircular .CircularProgressbar-text {
+    fill: #000000;
+    font-size: 210%;
+    font-weight: bold;
+    text-anchor: middle;
+}
+.card {
+    height: 20%;
+}
+
+.card .card-content {
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .headerContent {
+    color: #ffff !important;
+    padding: 4px;
+    border-radius: 0 0 2px 2px;
+    text-align: center;
+}
+
+.underline{
+    border-bottom: 1px solid;
+}
+ 
+.CircularProgressbar-path       { stroke: red;  }
+.CircularProgressbar .CircularProgressbar-background { fill: green;  }
+
+.white-text {
+    color: rgb(0, 0, 0) !important;
+}

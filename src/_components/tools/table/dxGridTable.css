@@ -1,0 +1,36 @@
+.dx-datagrid-rowsview .editCell{
+    background-color: rgb(108, 236, 146);
+}
+
+.dx-datagrid-rowsview  .editCell .dx-cell-focus-disabled{
+    background-color: rgb(108, 236, 146);
+}
+.dx-datagrid-rowsview .dx-selection .editCell .dx-cell-focus-disabled{
+    background-color: rgb(108, 236, 146);
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) .editCell,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) .editCell, 
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover .editCell, 
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover .editCell {
+    background-color: rgb(52,137,87);
+    color: #FFFF;
+}
+
+.dx-edit-row{
+    background-color: #e6e6e6;
+}
+
+.dx-datagrid-rowsview .dx-texteditor-input {
+    background-color: rgb(108, 236, 146);
+}
+
+.dx-master-detail-cell{
+    background-color: #e6e6e6;
+}
+
+.dx-datagrid-rowsview .dx-editor-cell .dx-texteditor .dx-texteditor-input {
+    /* background: #fff; */
+    background-color: rgb(52,137,87);
+    color: #FFFF;
+}
